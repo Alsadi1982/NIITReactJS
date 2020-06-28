@@ -4,6 +4,8 @@ import './index.css';
 //import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+let arr = [];
+
 
 class Timer extends React.Component {
   
@@ -11,7 +13,8 @@ class Timer extends React.Component {
     super(props);
     this.state = {
       min: 0,
-      sec: 0
+      sec: 0,
+      timerID: ''
     }
   }
 
@@ -21,6 +24,8 @@ class Timer extends React.Component {
 
   componentWillUnmount() {
     clearInterval(this.timerID);
+    arr.push(`${this.state.min}:${this.state.sec}`);
+    arr.forEach(item => console.log(item));
   }
 
   
@@ -31,6 +36,7 @@ class Timer extends React.Component {
     } else {
 
       this.setState({
+        sec: 0,
         min: this.state.min + 1
       });
     }
@@ -66,14 +72,54 @@ class Toggle extends React.Component {
     <div>
       {this.state.flag && <Timer />}
       <button onClick={this.toggleShowTimer}>Запустить/отключить таймер</button>
+      <List onChange={arr}/>
     </div>
     
     );
   }
 }
 
+class List extends React.Component {
+
+  constructor (props){
+    super(props);
+    this.state = {
+      flag: true,
+      arr2: []
+    }
+  }
+
+  recArr = () => {
+    
+    this.setState(
+      {flag: true}
+    );
+  }
+
+  clearArr = () => {
+    arr = [];
+    this.setState(
+      {flag: false}
+    );
+  }
+
+    render() {
+      return(
+        <div>
+         {this.state.flag && <div>{arr.map(i => {return (<div >{i}</div> )})}</div>} 
+          <button onClick={this.clearArr}>Очистить</button>
+          <button onClick={this.recArr}>Записать</button>
+        </div>
+        
+      );
+    }
+}
+
   ReactDOM.render(
-      <Toggle />,
+    <div>
+      <Toggle />
+    </div>,
+      
     document.getElementById('root')
   );
 
