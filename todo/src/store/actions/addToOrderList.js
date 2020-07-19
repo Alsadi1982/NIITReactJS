@@ -1,0 +1,3 @@
+const ADD_TO_ORDER_LIST = 'AD_TO_ORDER_LIST'
+
+export { ADD_TO_ORDER_LIST}
