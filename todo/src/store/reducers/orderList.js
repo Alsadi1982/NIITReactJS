@@ -7,11 +7,14 @@ const initialState = [ ];
 function orderList (state = initialState, action) {
     switch (action.type) {
         case ADD_TO_ORDER_LIST:
-            return [{name: action.name, id: state.length}, ...state];
+            return [{name: action.payload.name, id: state.length+1}, ...state];
         case DELETE_FROM_ORDER_LIST:
-            return [];
-        case CHANGE_ORDER_LIST:
-            return [];
+            return [
+                ...state.slice(0, action.payload.index),
+                ...state.slice(action.payload.index+1)
+            ];
+        // case CHANGE_ORDER_LIST:
+        //     return [];
         default:
             return state;
 

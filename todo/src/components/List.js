@@ -35,14 +35,16 @@ class List extends React.Component {
 
     render() {
         console.log(this.props);
-        const { orderList, addToOrderList} = this.props;
+        const { orderList, addToOrderList, changeOrderList, deleteOrderList} = this.props;
         return(
             <div>
                 <input
                     value={this.state.itemname}
                     onChange={(e)=>(this.setState({itemname: e.target.value}))}/>
                 <button onClick={()=>addToOrderList(this.state.itemname)}>Добавить</button>
-                {orderList.map((item) => (<p key={item.id}>{item.name}<button>Удалить</button><button>Изменить</button></p>))}
+                {orderList.map((item, index) => (<div key={item.id}>{item.name}
+                <button onClick={()=>deleteOrderList(index)}>Удалить</button>
+                    <button>Изменить</button></div>))}
             </div>
         )
     }
