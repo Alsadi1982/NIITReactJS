@@ -7,7 +7,6 @@ import {bindActionCreators} from "redux";
 
 
 const mapStateToProps = (state) => {
-    console.log(state);
     return {
         orderList: state.orderList
     }
@@ -39,7 +38,6 @@ class List extends React.Component {
 
 
     render() {
-        console.log(this.props);
         const { orderList, addToOrderList, changeOrderList, deleteOrderList} = this.props;
         return(
             <div>

@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4902f9d3-31be-4a9a-be56-c80f70dcf7e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/src/components/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/components/List.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/src/store/reducers/orderList.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/store/reducers/orderList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595087118067</updated>
       <workItem from="1595087121915" duration="1666000" />
-      <workItem from="1595088823600" duration="34245000" />
+      <workItem from="1595088823600" duration="35273000" />
     </task>
     <task id="LOCAL-00001" summary="add todo">
       <created>1595109769651</created>
@@ -104,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595627418333</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add Button Change">
+      <created>1595702918805</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595702918805</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,17 +132,18 @@
     <MESSAGE value="add List" />
     <MESSAGE value="add Button ADD" />
     <MESSAGE value="add Button Delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Button Delete" />
+    <MESSAGE value="add Button Change" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Button Change" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595447949876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595447949876" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595109784485">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595702923182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595109784485" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595702923182" />
     <state x="598" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1595109364209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
