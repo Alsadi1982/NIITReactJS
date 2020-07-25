@@ -13,8 +13,12 @@ function orderList (state = initialState, action) {
                 ...state.slice(0, action.payload.index),
                 ...state.slice(action.payload.index+1)
             ];
-        // case CHANGE_ORDER_LIST:
-        //     return [];
+        case CHANGE_ORDER_LIST:
+            return [
+                ...state.slice(0, action.payload.index),
+                {...state[action.payload.index], name: action.payload.name},
+                ...state.slice(action.payload.index+1)
+            ];
         default:
             return state;
 

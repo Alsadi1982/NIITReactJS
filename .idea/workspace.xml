@@ -22,9 +22,6 @@
     <list default="true" id="4902f9d3-31be-4a9a-be56-c80f70dcf7e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo/src/components/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/components/List.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/src/store/actionCreators/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/store/actionCreators/add.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/src/store/actionCreators/change.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/store/actionCreators/change.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/src/store/actionCreators/delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/store/actionCreators/delete.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo/src/store/reducers/orderList.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/store/reducers/orderList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +38,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1erkUoO8yy1CmeyZ0Ztr6Gtz06O" />
   <component name="ProjectViewState">
@@ -71,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595087118067</updated>
       <workItem from="1595087121915" duration="1666000" />
-      <workItem from="1595088823600" duration="30087000" />
+      <workItem from="1595088823600" duration="34245000" />
     </task>
     <task id="LOCAL-00001" summary="add todo">
       <created>1595109769651</created>
@@ -94,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595453076910</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Button Delete">
+      <created>1595627418333</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595627418333</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +126,8 @@
     <MESSAGE value="add todo" />
     <MESSAGE value="add List" />
     <MESSAGE value="add Button ADD" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Button ADD" />
+    <MESSAGE value="add Button Delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Button Delete" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595447949876">
