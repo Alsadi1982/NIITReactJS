@@ -26,6 +26,11 @@ class ExampleList extends React.Component {
                         ToDoList
                         </Link>
                     </li>
+                    <li>
+                        <Link to='/examples/hookExample'>
+                            Hook example
+                        </Link>
+                    </li>
                 </ul>
             </div>
         )
