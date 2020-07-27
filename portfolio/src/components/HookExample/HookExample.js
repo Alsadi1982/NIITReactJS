@@ -29,6 +29,12 @@ function HookExample(props) {
     const blockHeight = size.height/2;
 
     return (
+        <div>
+            <p>
+                <a href="https://github.com/Alsadi1982/NIITReactJS/tree/master/portfolio/src/components/HookExample">
+                    HookExample on GitHub
+                </a>
+            </p>
         <div style={{
             textAlign: 'center',
             backgroundColor: "#48D1CC",
@@ -40,6 +46,7 @@ function HookExample(props) {
             <p>windowHeight: {size.height}</p>
             <p>blockWidth: {blockWidth}</p>
             <p>blockHeight: {blockHeight}</p>
+        </div>
         </div>
     );
 

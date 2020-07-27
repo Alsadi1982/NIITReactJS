@@ -33,10 +33,16 @@ class Calculator extends React.Component {
     render () {
         return (
             <div>
+                <p>
+                    <a href="https://github.com/Alsadi1982/NIITReactJS/tree/master/Calculator">
+                        Calculator on GitHub
+                    </a>
+                </p>
                 <input value={this.state.num1} onChange={this.firstNum} type="number" />
                 <button onClick={this.click}>+</button>
                 <input value={this.state.num2} onChange={this.secondNum} type="number"/>
                 <div>={this.state.counter}</div>
+
             </div>
         );
     }

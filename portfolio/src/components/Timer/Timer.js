@@ -76,6 +76,11 @@ class TimerWrapper extends React.Component {
     render() {
         return (
             <div>
+                <p>
+                    <a href="https://github.com/Alsadi1982/NIITReactJS/tree/master/Timer">
+                        Timer on GitHub
+                    </a>
+                </p>
                 <button onClick={this.toggleShowTimer}>{this.state.flag ? 'Скрыть' : 'Показать'} таймер</button>
                 {this.state.flag && <Timer />}
             </div>

@@ -41,6 +41,11 @@ class List extends React.Component {
         const { orderList, addToOrderList, changeOrderList, deleteOrderList} = this.props;
         return(
             <div>
+                <p>
+                    <a href="https://github.com/Alsadi1982/NIITReactJS/tree/master/todo">
+                        ToDoList on GitHub
+                    </a>
+                </p>
                 <input
                     value={this.state.itemName}
                     onChange={(e)=>(this.setState({itemName: e.target.value}))}/>

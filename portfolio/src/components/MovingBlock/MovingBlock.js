@@ -31,6 +31,12 @@ class MovingBlock extends React.Component {
     render() {
         const { top, left} = this.state;
         return (
+            <div>
+                <p>
+                    <a href="https://github.com/Alsadi1982/NIITReactJS/tree/master/movingblock">
+                        Movingblock on GitHub
+                    </a>
+                </p>
             <div style={divStyle} onMouseMove={this.mouseMove}>
                 <div style={{
                     position: 'absolute',
@@ -41,6 +47,7 @@ class MovingBlock extends React.Component {
                     height: 50,
                     backgroundColor: '#9932CC'
                 }}/>
+            </div>
             </div>
         )
     }
