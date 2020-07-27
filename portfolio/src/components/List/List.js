@@ -46,6 +46,7 @@ class List extends React.Component {
                         ToDoList on GitHub
                     </a>
                 </p>
+                <div>
                 <input
                     value={this.state.itemName}
                     onChange={(e)=>(this.setState({itemName: e.target.value}))}/>
@@ -75,7 +76,7 @@ class List extends React.Component {
                             <button  onClick={()=>this.setState({ editIndex: index})}>Изменить</button>
                         </div>
                     </div>))}
-
+                </div>
             </div>
         )
     }
