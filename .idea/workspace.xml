@@ -20,30 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4902f9d3-31be-4a9a-be56-c80f70dcf7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/src/components/Calculator/Calculator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/components/Calculator/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/components/HookExample/HookExample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/components/HookExample/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/components/MovingBlock/MovingBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/components/MovingBlock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/src/components/Timer/Timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/src/components/Timer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/src/pages/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/src/pages/Home/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/src/pages/Home/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timer/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timer/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timer/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timer/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timer/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timer/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timer/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timer/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timer/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timer/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timer/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timer/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timer/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timer/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Main/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/pages/Examples/Example/Example.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/pages/Examples/Example/Example.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/pages/Examples/ExampleList/ExampleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/pages/Examples/ExampleList/ExampleList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/pages/Examples/Examples.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/pages/Examples/Examples.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -76,7 +61,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio/public" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,13 +72,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sav19\Desktop\NIITReactJS\portfolio\public" />
+      <recent name="C:\Users\sav19\Desktop\NIITReactJS\portfolio\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sav19\Desktop\NIITReactJS\portfolio\src\pages\Examples" />
       <recent name="C:\Users\sav19\Desktop\NIITReactJS\portfolio\src\components\App" />
       <recent name="C:\Users\sav19\Desktop\NIITReactJS\portfolio\src\components\List" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sav19\Desktop\NIITReactJS\portfolio\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -111,7 +98,7 @@
       <workItem from="1595705209529" duration="51000" />
       <workItem from="1595705317508" duration="25955000" />
       <workItem from="1595877103887" duration="1033000" />
-      <workItem from="1595878263486" duration="2527000" />
+      <workItem from="1595878263486" duration="7402000" />
     </task>
     <task id="LOCAL-00001" summary="add todo">
       <created>1595109769651</created>
@@ -162,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595789996468</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add culc v3.0">
+      <created>1595881302638</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595881302638</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +182,8 @@
     <MESSAGE value="add Button Change" />
     <MESSAGE value="delete consoleLog" />
     <MESSAGE value="add portfolio v 0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add portfolio v 0.1" />
+    <MESSAGE value="add culc v3.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="add culc v3.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="53" key="#Plugins" timestamp="1595878295212">
@@ -207,10 +202,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595447949876" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595789999287">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595881310376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595789999287" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595881310376" />
     <state x="372" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595775383727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

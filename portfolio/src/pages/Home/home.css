@@ -1,0 +1,27 @@
+.wrapper{
+
+    width: 1024px;
+    margin: auto;
+    font-family: 'Merriweather', serif;
+    line-height: 1.5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    padding-top: 19%;
+
+}
+
+.code-example{
+    height: 568px;
+    width: 437px;
+}
+
+.me{
+    height: 249px;
+    width: 258px;
+}
